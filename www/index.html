@@ -26,10 +26,11 @@
         <ul class="rounded">
             <li class="arrow"><a href="#oAbout" class="slidedown">About</a></li>
             <li class="arrow"><a href="#oMiniEpiDashboard" class="slideright">Mini Epi Dashboard</a></li>
-            <li class="arrow"><a href="#oUtilizationGraphs" class="slideright">Utilization Graphs</a></li>
             <li class="arrow"><a href="#oEmailReports" class="slideright">E-mail Reports</a></li>
+            <!--<li class="arrow"><a href="#oUtilizationGraphs" class="slideright">Utilization Graphs</a></li>-->
         </ul>
         <!--<ul class="rounded">
+            <li class="arrow" onclick="asdf();">Get ip ...</li>
             <li class="arrow" onclick="getCurrentAcceleration();">Acceleration get ...</li>
             <li class="arrow" onclick="getCurrentPosition();">Location<em class="ico"><img src="img/map.png" /></em><span>Get your position.</span></li>
             <li class="arrow" onclick="capturePhoto();">Camera<em class="ico"><img src="img/ic_action_photo.png" /></em><span>Take a photo</span></li>
@@ -60,7 +61,7 @@
         <form method="post">
             <ul class="edit rounded">
                 <li>
-                    <input placeholder="Username" type="text" name="oUsername" id="oUsername" onblur="CheckUserName();" /></li>
+                    <input placeholder="Username" type="text" name="oUsername" id="oUsername" onblur="checkUserName();" /></li>
                 <li>
                     <input placeholder="Password" type="password" name="oPassword" id="oPassword" /></li>
                 <!--<li>Some Text <span class="toggle">
@@ -97,19 +98,6 @@
         </div>
         <div>
             <ul class="edgetoedge scroll" id="oMiniEpiDashboardList">
-                <li class="arrow" onclick="GetUtilizationEventForSubTypeFromDC('ADE');">ADE</li>
-                <li class="arrow" onclick="GetUtilizationEventForSubTypeFromDC('ASM');">ASM</li>
-                <li class="arrow" onclick="GetUtilizationEventForSubTypeFromDC('BIS');">BIS</li>
-                <li class="arrow" onclick="GetUtilizationEventForSubTypeFromDC('BioRad');">BioRad</li>
-                <li class="arrow" onclick="GetUtilizationEventForSubTypeFromDC('Centura');">Centura</li>
-                <li class="arrow" onclick="GetUtilizationEventForSubTypeFromDC('Cybeq');">Cybeq</li>
-                <li class="arrow" onclick="GetUtilizationEventForSubTypeFromDC('Four Point Probe');">Four Point Probe</li>
-                <!--<li class="arrow" onclick="GetUtilizationEventForSubTypeFromDC('MOSCAP');">MOSCAP</li>-->
-                <li class="arrow" onclick="GetUtilizationEventForSubTypeFromDC('NAC');">NAC</li>
-                <li class="arrow" onclick="GetUtilizationEventForSubTypeFromDC('SCRUB');">SCRUB</li>
-                <li class="arrow" onclick="GetUtilizationEventForSubTypeFromDC('SP');">SP</li>
-                <li class="arrow" onclick="GetUtilizationEventForSubTypeFromDC('SSM HgCV');">SSM HgCV</li>
-                <li class="arrow" onclick="GetUtilizationEventForSubTypeFromDC('XY HgCV');">XY HgCV</li>
             </ul>
         </div>
     </div>
@@ -123,27 +111,15 @@
             </ul>
         </div>
     </div>
-    <div id="oUtilizationGraphs" class="scroll">
-        <div class="toolbar">
-            <h1>Utilization Graphs</h1>
-            <a class="button back" href="#">.&nbsp;&nbsp;&nbsp;&nbsp;Back</a>
-        </div>
-        <div>
-            <ul class="edgetoedge scroll" id="oUtilizationGraphsList">
-                <li class="arrow"><a title="-->.getJSONP(TODO)" class="slideright">Reactors</a></li>
-            </ul>
-        </div>
-    </div>
     <div id="oEmailReports" class="scroll">
         <div class="toolbar">
             <h1>E-mail Reports</h1>
             <a class="button back" href="#">.&nbsp;&nbsp;&nbsp;&nbsp;Back</a>
-            <a class="button slideup" href="#createEntry">+</a>
         </div>
         <div>
             <ul class="edgetoedge scroll" id="oEmailReportsList">
                 <li class="sep">A</li>
-                <li class="arrow"><a title="-->.getJSONP(TODO)" class="slideright">Area WIP</a></li>
+                <li class="arrow">Speator proof</li>
                 <li class="sep">W</li>
             </ul>
         </div>
