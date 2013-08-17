@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.sumcousa.epidashboard" version="1.0.024" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.sumcousa.epidashboard" version="1.0.025" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
   <name short="Epi_Dashboard">SUMCO-SPQ-Epi_Dashboard</name>
   <description>
-    SUMCO-SPQ-Epi_Dashboard Rev 1.0.024
+    SUMCO-SPQ-Epi_Dashboard Rev 1.0.025
   </description>
   <author email="support@sumcousa.com" href="http://www.sumcousa.com/location_albuq.htm">
     SUMCO USA
@@ -10,6 +10,7 @@
   <feature name="http://api.phonegap.com/1.0/device" />
   <!--<preference name = "apikey" value = "ea31ad3a23fd2f" readonly = "true" />-->
   <preference name="MySetting" value="I like blue" />
+  <preference name="MyKeyTool" value="keytool -genkey -v -keystore c:\lesliephares-release.keystore -alias lphares -keyalg RSA -keysize 2048 -validity 10000" />
   <preference name="permissions" value="none" />
   <preference name="orientation" value="default" />
   <preference name="target-device" value="universal" />
