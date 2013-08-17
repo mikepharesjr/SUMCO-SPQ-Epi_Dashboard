@@ -1,17 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.sumco.epidashboard" version="1.0.023" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-  <name>SUMCO-SPQ-Epi_Dashboard</name>
+<widget id="com.sumcousa.epidashboard" version="1.0.024" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+  <name short="Epi_Dashboard">SUMCO-SPQ-Epi_Dashboard</name>
   <description>
-    SUMCO-SPQ-Epi_Dashboard Rev 1.0.023
+    SUMCO-SPQ-Epi_Dashboard Rev 1.0.024
   </description>
   <author email="support@sumcousa.com" href="http://www.sumcousa.com/location_albuq.htm">
     SUMCO USA
   </author>
   <feature name="http://api.phonegap.com/1.0/device" />
+  <!--<preference name = "apikey" value = "ea31ad3a23fd2f" readonly = "true" />-->
+  <preference name="MySetting" value="I like blue" />
   <preference name="permissions" value="none" />
   <preference name="orientation" value="default" />
   <preference name="target-device" value="universal" />
-  <preference name="fullscreen" value="true" />
+  <preference name="fullscreen" readonly="true" value="true" />
   <preference name="webviewbounce" value="true" />
   <preference name="prerendered-icon" value="true" />
   <preference name="stay-in-webview" value="false" />
@@ -47,5 +49,17 @@
   <gap:splash gap:platform="ios" height="1024" src="res/screen/ios/screen-ipad-portrait.png" width="768" />
   <gap:splash gap:platform="ios" height="768" src="res/screen/ios/screen-ipad-landscape.png" width="1024" />
   <gap:splash gap:platform="winphone" src="res/screen/windows-phone/screen-portrait.jpg" />
-  <access origin="http://127.0.0.1*" />
+  <access origin="http://127.0.0.1*" /> 
+  <content src="index.html" />
+  <license>
+    Example license (based on MIT License)
+    Copyright (c) 2008 The Foo Bar Corp.
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+    OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+    IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+    CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+    INSULT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+    SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  </license>
 </widget>
